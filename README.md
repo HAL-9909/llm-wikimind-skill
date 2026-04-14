@@ -2,14 +2,14 @@
 
 # wiki-ingest
 
-**A CatDesk / OpenClaw skill for ingesting content into your [WikiMind](https://github.com/HAL-9909/wikimind) knowledge base.**
+**A CatDesk / OpenClaw skill for ingesting content into your [WikiMind](https://github.com/HAL-9909/llm-wikimind) knowledge base.**
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-wikimind--ingest-blue?style=flat-square)](https://clawhub.ai/skills/wikimind-ingest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 **English** | [中文](README.zh.md)
 
-*Part of the [WikiMind](https://github.com/HAL-9909/wikimind) ecosystem — a production implementation of [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*
+*Part of the [WikiMind](https://github.com/HAL-9909/llm-wikimind) ecosystem — a production implementation of [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*
 
 </div>
 
@@ -31,7 +31,7 @@ Next time you ask about that topic, your AI searches your wiki first — before 
 
 ## Prerequisites
 
-- [WikiMind](https://github.com/HAL-9909/wikimind) installed and configured
+- [WikiMind](https://github.com/HAL-9909/llm-wikimind) installed and configured
 - `wiki-kb` MCP server registered in CatDesk/OpenClaw
 - `qmd` installed: `pip3 install qmd`
 
@@ -60,7 +60,7 @@ cp SKILL.md ~/.catpaw/skills/wiki-ingest/SKILL.md
 
 ## Related
 
-- [WikiMind](https://github.com/HAL-9909/wikimind) — the knowledge base system this skill writes to
+- [WikiMind](https://github.com/HAL-9909/llm-wikimind) — the knowledge base system this skill writes to
 - [Karpathy's LLM Wiki Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — the original methodology
 
 ---

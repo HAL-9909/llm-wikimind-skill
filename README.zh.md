@@ -2,14 +2,14 @@
 
 # wiki-ingest
 
-**用于将内容写入 [WikiMind](https://github.com/HAL-9909/wikimind) 知识库的 CatDesk / OpenClaw Skill。**
+**用于将内容写入 [WikiMind](https://github.com/HAL-9909/llm-wikimind) 知识库的 CatDesk / OpenClaw Skill。**
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-wikimind--ingest-blue?style=flat-square)](https://clawhub.ai/skills/wikimind-ingest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 [English](README.md) | **中文**
 
-*[WikiMind](https://github.com/HAL-9909/wikimind) 生态的一部分 — [Karpathy LLM Wiki 方法](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 的生产级实现。*
+*[WikiMind](https://github.com/HAL-9909/llm-wikimind) 生态的一部分 — [Karpathy LLM Wiki 方法](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 的生产级实现。*
 
 </div>
 
@@ -31,7 +31,7 @@
 
 ## 前置条件
 
-- 已安装并配置 [WikiMind](https://github.com/HAL-9909/wikimind)
+- 已安装并配置 [WikiMind](https://github.com/HAL-9909/llm-wikimind)
 - 在 CatDesk/OpenClaw 中注册了 `wiki-kb` MCP Server
 - 已安装 `qmd`：`pip3 install qmd`
 
@@ -60,7 +60,7 @@ cp SKILL.md ~/.catpaw/skills/wiki-ingest/SKILL.md
 
 ## 相关链接
 
-- [WikiMind](https://github.com/HAL-9909/wikimind) — 本 Skill 写入的知识库系统
+- [WikiMind](https://github.com/HAL-9909/llm-wikimind) — 本 Skill 写入的知识库系统
 - [Karpathy LLM Wiki Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — 原始方法论
 
 ---
