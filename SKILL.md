@@ -1,9 +1,9 @@
 ---
 name: wiki-ingest
-version: 1.0.0
-description: "Ingest articles, docs, notes, and web pages into your local WikiMind knowledge base (Karpathy's LLM Wiki pattern). Triggers: add to knowledge base, ingest, save to wiki, write to wiki, store this, wiki_ingest, 加到知识库, 写入知识库."
-author: liuxiangmian
-homepage: https://github.com/liuxiangmian/wikimind-skill
+version: 1.1.0
+description: "Ingest articles, docs, notes, and web pages into your local LLM-WikiMind knowledge base (Karpathy's LLM Wiki pattern). Triggers: add to knowledge base, ingest, save to wiki, write to wiki, store this, wiki_ingest, 加到知识库, 写入知识库."
+author: HAL-9909
+homepage: https://github.com/HAL-9909/llm-wikimind-skill
 license: MIT
 tags: ["knowledge-base", "wiki", "second-brain", "MCP", "markdown", "local-first", "llm-wiki", "karpathy"]
 requires:
@@ -14,11 +14,11 @@ requires:
 
 # wiki-ingest Skill
 
-Ingest content into your local [WikiMind](https://github.com/liuxiangmian/wikimind) knowledge base — a production implementation of [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+Ingest content into your local [LLM-WikiMind](https://github.com/HAL-9909/llm-wikimind) knowledge base — a production implementation of [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
 ## Prerequisites
 
-1. **WikiMind installed** — see [setup guide](https://github.com/liuxiangmian/wikimind#quick-start)
+1. **LLM-WikiMind installed** — see [setup guide](https://github.com/HAL-9909/llm-wikimind#quick-start)
 2. **`wiki-kb` MCP server registered** in CatDesk/OpenClaw
 3. **`qmd` installed**: `pip3 install qmd`
 
